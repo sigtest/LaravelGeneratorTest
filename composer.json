@@ -19,7 +19,9 @@
         "laravelcollective/html": "5.2.*",
 		"infyomlabs/swagger-generator": "dev-master",
         "jlapp/swaggervel": "dev-master",
-		"doctrine/dbal": "~2.3"
+		"doctrine/dbal": "~2.3",
+        "xethron/migrations-generator": "dev-l5",
+        "way/generators": "dev-feature/laravel-five-stable"
     },
     "autoload": {
         "classmap": [
@@ -54,5 +56,11 @@
     },
     "config": {
         "preferred-install": "dist"
+    },
+    "repositories": {
+        "repo-name": {
+            "type": "git",
+            "url": "git@github.com:jamisonvalenta/Laravel-4-Generators.git"
+        }
     }
 }
